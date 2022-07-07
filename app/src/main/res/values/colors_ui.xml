@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~    Copyright 2018 Loremar Marabillas
+  ~
+  ~    Licensed under the Apache License, Version 2.0 (the "License");
+  ~    you may not use this file except in compliance with the License.
+  ~    You may obtain a copy of the License at
+  ~
+  ~        http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~    Unless required by applicable law or agreed to in writing, software
+  ~    distributed under the License is distributed on an "AS IS" BASIS,
+  ~    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~    See the License for the specific language governing permissions and
+  ~    limitations under the License.
+  -->
+
+<resources>
+    <color name="logo_color">@color/purple</color>
+    <!--<color name="logo_border">@color/green</color>-->
+
+    <color name="main_screen_header_text_color">@color/dark_green</color>
+    <color name="main_screen_edit_text_focused_border">@color/yellow_orange</color>
+    <color name="main_screen_edit_text_text_color">@android:color/black</color>
+    <color name="main_screen_edit_text_hint_color">@android:color/darker_gray</color>
+    <color name="main_screen_label_text_color">@android:color/black</color>
+
+    <color name="activity_splash_background">@color/bright_green</color>
+    <color name="activity_splash_status">@android:color/white</color>
+
+    <color name="activity_signup_background">@color/bright_green</color>
+    <color name="activity_signup_rules">@color/dark_green</color>
+    <color name="activity_signup_invalid">@color/red</color>
+    <color name="activity_signup_username_availability_textcolor">@android:color/black</color>
+    <color name="activity_signup_username_notavailable_textcolor">@color/red</color>
+
+    <color name="activity_login_background">@color/bright_green</color>
+    <color name="activity_login_signup_link">@color/purple</color>
+
+    <color name="activity_maininapp_toolbar_background">@color/greenish_blue</color>
+    <color name="activity_maininapp_header_background">@android:color/white</color>
+    <color name="activity_maininapp_header_textcolor">@android:color/black</color>
+    <color name="activity_maininapp_divider">@android:color/darker_gray</color>
+    <color name="activity_maininapp_fetchingdataview_background">@android:color/white</color>
+    <color name="activity_maininapp_fetchingdataview_textcolor">@android:color/black</color>
+    <color name="activity_maininapp_progress_background">@android:color/white</color>
+    <color name="activity_maininapp_progress_textcolor">@android:color/black</color>
+    <color name="acitvity_maininapp_expandingdialogview_background">@color/lightblack</color>
+    <color name="activity_maininapp_page_background">@color/lighterblack</color>
+
+    <color name="fragment_todotasks_addtask_section_background">@android:color/white</color>
+    <color name="fragment_todotasks_addtask_textcolor">@android:color/black</color>
+    <color name="fragment_todotasks_addtask_textcolorhint">@android:color/darker_gray</color>
+    <color name="fragment_todotasks_listitem_textview_textcolor">@android:color/black</color>
+
+    <color name="fragment_finishedtasks_listitem_textview_textcolor">@android:color/black</color>
+    <color name="fragment_finishedtasks_listitem_datefinished_textcolor">@android:color/black
+    </color>
+
+    <color name="fragment_topwords_numresults_section_background">@android:color/white</color>
+    <color name="fragment_topwords_numresults_label_textcolor">@android:color/black</color>
+    <color name="fragment_topwords_numresultsspinner_listitem_background">@android:color/white
+    </color>
+    <color name="fragment_topwords_numresultsspinner_listitem_textcolor">@android:color/black
+    </color>
+    <color name="fragment_topwords_numresultsspinner_listitem_bordercolor">
+        @android:color/darker_gray
+    </color>
+    <color name="fragment_topwords_columnlabel_section_background">@android:color/white</color>
+    <color name="fragment_topwords_columnlabel_divider">@android:color/darker_gray</color>
+    <color name="fragment_topwords_columnlabel_textcolor">@android:color/black</color>
+    <color name="fragment_topwords_footer_background">@android:color/white</color>
+    <color name="fragment_topwords_footer_divider">@android:color/darker_gray</color>
+    <color name="fragment_topwords_listitem_background">@android:color/white</color>
+    <color name="fragment_topwords_listItem_verticaldivider">@android:color/darker_gray</color>
+    <color name="fragment_topwords_listitem_word_textcolor">@android:color/black</color>
+    <color name="fragment_topwords_listitem_count_textcolor">@android:color/black</color>
+    <color name="fragment_topwords_listitem_horizontaldivider">@android:color/darker_gray</color>
+    <color name="fragment_topwords_excludedwords_listitem_background">@android:color/white</color>
+    <color name="fragment_topwords_excludedwords_listitem_textcolor">@android:color/black</color>
+    <color name="fragment_topwords_excludedwords_listitem_divider">@android:color/darker_gray
+    </color>
+</resources>
